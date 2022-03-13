@@ -1,6 +1,6 @@
-import styles from './Button.module.scss';
+import styles from './Buttons.module.scss';
 
-const Button = ({ setStart, setTime}) => {
+const Buttons = ({ setStart, setTime}) => {
 
     return(
         <div>
@@ -11,4 +11,4 @@ const Button = ({ setStart, setTime}) => {
     );
 }
 
-export default Button;
+export default Buttons;

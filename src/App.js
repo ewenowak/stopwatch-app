@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 import Stopwatch from "./components/Stopwatch/Stopwatch";
-import Button from "./components/Button/Button";
+import Buttons from "./components/Buttons/Buttons";
 import Container from "./components/Container/Container";
 
 
@@ -25,7 +25,7 @@ const App = () => {
   return (
     <Container>
       <Stopwatch time={time}/>
-      <Button setTime={setTime} setStart={setStart} />
+      <Buttons setTime={setTime} setStart={setStart} />
     </Container>
   );
 };
